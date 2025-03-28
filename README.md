@@ -16,7 +16,7 @@ This directory contains the FastAPI backend. It provides a Server-Sent Events (S
 
 ## API Documentation
 
-Detailed API documentation is available in [API_DOCUMENTATION.md](docs/API_DOCUMENTATION.md). This document explains:
+Detailed API documentation is available in [API_DOCUMENTATION.md](backend/docs/API_DOCUMENTATION.md). This document explains:
 - How to call the `/query` endpoint.
 - Request and response formats.
 - SSE event types (`chunk`, `tool_use`, `tool_output`, and `end`).
