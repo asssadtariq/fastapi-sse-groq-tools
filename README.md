@@ -1,6 +1,6 @@
 # Backend
 
-This directory contains the FastAPI backend for the SuperCar Virtual Sales Assistant. It provides a Server-Sent Events (SSE) powered `/query` endpoint to process user queries, stream AI-generated responses, and integrate with various external tools.
+This directory contains the FastAPI backend. It provides a Server-Sent Events (SSE) powered `/query` endpoint to process user queries, stream AI-generated responses, and integrate with various external tools.
 
 ## Overview
 
@@ -26,12 +26,5 @@ Detailed API documentation is available in [API_DOCUMENTATION.md](docs/API_DOCUM
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.11+
 - `pip` package manager
-
-### Installation
-
-1. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate   # On Windows
